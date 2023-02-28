@@ -1,7 +1,7 @@
-def max_num(num_list):       #L is a list of 3 numbers
+def max_num(num_list):
     return(max(num_list))
 
-def mult_list(num_list):     #L is a list of numbers
+def mult_list(num_list):
     product = 1
     for n in num_list:
         product *= n
